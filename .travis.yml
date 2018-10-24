@@ -2,10 +2,3 @@ language: node_js
 node_js: node
 services:
 - mongodb
-deploy:
-  provider: heroku
-  api_key:
-    secure: asaegqHM1IMHRO+3d50v4/fsdk6y0jD7lAdoJJGIjPRsFlw8aE83+siVtzaCUFahHNpDDs0JdhCTk7eLfU+Jv4HfKaaj3nQS6hUX7Zpl9OdDRANhS7TjnKziXdbeAOZeYrSFR11Vp3AlMj7CAA7AfdueXtUuBbCQaCnRZ2IuYbtXyct/OBHjPe6xaS7QZ/sZnha0l6oyJupzywgVFukFh5AvPthXg+Wn9EbmQ/bgenDN10jiVDdyLo6nThsNzzkGwG1tg9qhEi+8x0NSRrqjoDpUAbifex+ZVfhV3nTR/RoPbD30/EXD1+B85t5fmNESt2ZNcb37ZP+N4BCh1gWh9XwUmhbI4XKooDaDDZSU3b+D07fJOtELi3ul7IwrHN0JhxOmuheTd3VEHOpaSrAj3bAI9grST6t7PTTmFlGRa5wY1uj41loCGVA9rXWywgc1sWE9AyquzMD6JiywiR3FCqTx/0GVX/X9Zj5ATwq/HyiYxogwe9yDYnmPuFMrLUQdlfxjIKblRQaTg/7KvucO1FGpfuPPTgylVW2Pyw8iOj3WehoAXWJ4wjEOPTG4FAzly84Jd5e7M3bt77i7O03EKVAu50Yexld+5c7gFrJ9lBFSrf8XGNosfQXSpVw24+3IyiGYrLMFq1h1k1YWoRouPLHS5ymoB3gxvVzUDDmarEI=
-  app: serene-falls-45294
-  on:
-    branch: feature/with-tests
