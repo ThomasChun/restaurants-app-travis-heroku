@@ -2,3 +2,11 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: LJ13iMu+ilF7R7X54/3p41pOuzERciR247tR4d66rW7+tg1ou+D+IOUz5QOU86za7l4X8kkkmLezRoaBq9CykD+tBlB1omq78pHtkHNgj35izUxfzF2OtX+QmX29FiOY0fvm9FD2sfwuhSSjA/aWL74mlZGO4CB5387CjeSD1PXOdm54pL8UcRzuc7qz28TJRiA2njf1EWO4PDuEJiTEZ+MjnxM+HoYWD5ToPFA4dwatqnd/4a0Xtf0W5JsogfG20koWrBAOfGvEA6nq1yqf/7J4FzKYNcNcEVEcesU0FEU4PCI9uRyc3vyDhLG9xNOICsLi43jwAeq3jNPDSZQLZrOaCthjV+InKFIitf1GZKN5DWxhyTIXi3BOyq0xjDHcZXMbmC3oMQtuLAppfcUFE0LV99pLeX+l7gZj9WOrR3vqfnqtnz+VfPYjSX5eykySfKQMDOmr2l/14C210B7DrS+vN4Sdws0LzDE8BKNg23rSKuXK6axzCIcU5BYIC4x6N3nmivkoFiV+bTII6UHzQaO8s0UjgHht0VzUztmmGD4rqZjJxfDkj4QJcA6OxdT7xaQcZn1OJh3r98RyjJa4eH2/fvRHtgnBJpHRM/7Hll6LIpTlpGmILC04/CowYyTZSJCLZNMjOaNdmziio+b5LkxdCdgaUrDTs4U1qvALGx0=
+  app: serene-falls-45294
+  on:
+    repo: ThomasChun/restaurants-app-travis-heroku
+    branch: feature/with-tests
